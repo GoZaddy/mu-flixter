@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">Flixter</string>
+    <string name="youtube_api_key">AIzaSyAk71gdJ84__MQtIp3O3sMQhzPYOf7r-7Q</string>
+    <string name="api_base_url">https://api.themoviedb.org/3/</string>
+    <string name="tmdb_api_key">7fad9ede458a27ae5c62e0acdb973339</string>
 </resources>
