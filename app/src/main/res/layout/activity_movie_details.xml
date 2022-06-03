@@ -60,5 +60,6 @@
             android:clickable="true"
             android:onClick="openVideo"
             tools:srcCompat="@tools:sample/avatars" />
+
     </RelativeLayout>
 </ScrollView>

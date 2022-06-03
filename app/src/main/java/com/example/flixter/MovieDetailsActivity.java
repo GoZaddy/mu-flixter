@@ -3,6 +3,7 @@ package com.example.flixter;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.content.res.Configuration;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -53,7 +54,8 @@ public class MovieDetailsActivity extends AppCompatActivity {
 
         tvTitle.setText(movie.getTitle());
         tvOverview.setText(movie.getOverview());
-        Glide.with(this).load(movie.getPosterPath()).placeholder(R.drawable.flicks_movie_placeholder).into(poster);
+
+        Glide.with(this).load(movie.getBackdropPath()).placeholder(R.drawable.flicks_backdrop_placeholder).into(poster);
 
         float voteAverage = movie.getVoteAverage().floatValue();
         rbVoteAverage.setRating(voteAverage / 2.0f);
